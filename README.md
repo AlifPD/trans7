@@ -1,1 +1,8 @@
-# trans7
+# No 1 Deret
+```
+npm i
+```
+
+```
+npm start
+```
