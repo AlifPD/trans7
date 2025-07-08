@@ -1,25 +1,15 @@
 {
   "name": "trans7",
   "version": "1.0.0",
-  "description": "",
+  "description": "No 5 Encrypt",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "electron .",
-    "build": "electron-builder"
+    "start": "electron ."
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "electron": "^37.2.0",
-    "electron-builder": "^26.0.12"
-  },
-  "build": {
-    "appId": "com.alif.no_5_encrypt",
-    "productName": "No 5 Encrypt",
-    "win": {
-      "target": "nsis"
-    },
-    "sign": false
+    "electron": "^37.2.0"
   }
 }

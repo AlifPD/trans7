@@ -1,1 +1,8 @@
-# trans7
+# No 5 Encrypt
+```
+npm i
+```
+
+```
+npm start
+```
