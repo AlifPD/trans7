@@ -1,1 +1,8 @@
-# trans7
+# No 3 Fibonacci
+```
+npm i
+```
+
+```
+npm start
+```
