@@ -13,7 +13,11 @@ window.addEventListener("DOMContentLoaded", () => {
 
     function generateEven(n) {
         const result = [];
-        for (let i = 1; result.length < n; i++) if (i % 2 === 0) result.push(i);
+        for (let i = 1; result.length < n; i++) {
+            if (i % 2 === 0) {
+                result.push(i)
+            }
+        }
         return result;
     }
 
@@ -21,7 +25,9 @@ window.addEventListener("DOMContentLoaded", () => {
         const result = [];
         let num = 2;
         while (result.length < n) {
-            if (isPrime(num)) result.push(num);
+            if (isPrime(num)) {
+                result.push(num)
+            }
             num++;
         }
         return result;
@@ -29,15 +35,21 @@ window.addEventListener("DOMContentLoaded", () => {
 
     function isPrime(num) {
         if (num < 2) return false;
-        for (let i = 2; i <= Math.sqrt(num); i++) if (num % i === 0) return false;
+        for (let i = 2; i <= Math.sqrt(num); i++) {
+            if (num % i === 0) return false
+        }
         return true;
     }
 
     function generateFibonacci(n) {
         const result = [];
         for (let i = 0; i < n; i++) {
-            if (i < 2) result.push(1);
-            else result.push(result[i - 1] + result[i - 2]);
+            if (i < 2) {
+                result.push(1)
+            }
+            else {
+                result.push(result[i - 1] + result[i - 2])
+            }
         }
         return result;
     }
