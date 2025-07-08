@@ -18,8 +18,8 @@
     "appId": "com.alif.no_1_deret",
     "productName": "No 1 Deret",
     "win": {
-      "target": "nsis",
-      "sign": false
-    }
+      "target": "nsis"
+    },
+    "sign": false
   }
 }
